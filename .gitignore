@@ -1,24 +1,40 @@
-# Compiled class file
-*.class
+# macOS
+.DS_Store
 
-# Log file
+# idea
+.idea
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+*.db
+
+# Node
+node_modules/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# 数据和模型
+*.h5
+*.ckpt
+*.pth
+*.pt
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
+*.csv
+*.tsv
 *.zip
+*.tar
 *.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# 临时文件
+*.tmp
+*.swp
