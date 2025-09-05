@@ -37,4 +37,4 @@ node_modules/
 
 # 临时文件
 *.tmp
-*.swp
+*.swp 
